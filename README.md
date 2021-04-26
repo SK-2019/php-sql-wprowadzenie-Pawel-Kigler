@@ -1,2 +1,2 @@
 # PHP-SQL-wprowadzenie
-https://php-sql-wprowadzenie.herokuapp.com/
+https://pawel-kigler.herokuapp.com/
