@@ -1,6 +1,6 @@
 <h1 class="title">
         <img class="nav_icons" src="https://raw.githubusercontent.com/SK-2019/php-sql-wprowadzenie-Pawel-Kigler/main/like.png"/>  
-        Patryk Jojko
+        Pawel Kigler
         <img class="nav_icons" src="https://raw.githubusercontent.com/SK-2019/php-sql-wprowadzenie-Pawel-Kigler/main/like.png"/>
 
 
