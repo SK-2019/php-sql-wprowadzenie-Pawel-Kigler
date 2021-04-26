@@ -27,7 +27,7 @@
   }
   
   .colorBlue {
-    background-color: rgb(255, 0, 0);
+    background-color:  rgb(255, 230, 0);
     width: auto;
     max-width: 20%;
     height: 100vh;
@@ -41,7 +41,7 @@
   }
   
   .colorGreen {
-    background-color: rgb(30, 255, 0);
+    background-color: rgb(206, 209, 0);
     width: auto;
     max-width: 70%;
     height: auto;
