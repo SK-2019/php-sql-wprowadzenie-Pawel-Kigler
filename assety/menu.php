@@ -4,28 +4,28 @@
             Github
             <img class="nav_icon" src="https://raw.githubusercontent.com/SK-2019/php-sql-wprowadzenie-Pawel-Kigler/main/like.png"/>
           </a>
-          <a href="/pracorgfunc/pracownicy.php">
+          <a href="/pracownicy-org/pracownicy.php">
             <img class="nav_icon" src="https://raw.githubusercontent.com/SK-2019/php-sql-wprowadzenie-Pawel-Kigler/main/like.png"/>
             Pracownicy
             <img class="nav_icon" src="https://raw.githubusercontent.com/SK-2019/php-sql-wprowadzenie-Pawel-Kigler/main/like.png"/>
 
 
           </a>
-          <a href="/pracorgfunc/organizacja.php">
+          <a href="/pracownicy-org/organizacja.php">
             <img class="nav_icon" src="https://raw.githubusercontent.com/SK-2019/php-sql-wprowadzenie-Pawel-Kigler/main/like.png"/>
             Pracownicy i Organizacja
             <img class="nav_icon" src="https://raw.githubusercontent.com/SK-2019/php-sql-wprowadzenie-Pawel-Kigler/main/like.png"/>
 
 
           </a>
-          <a href="/pracorgfunc/funkcje.php">
+          <a href="/pracownicy-org/funkcje.php">
             <img class="nav_icon" src="https://raw.githubusercontent.com/SK-2019/php-sql-wprowadzenie-Pawel-Kigler/main/like.png"/>
             Funkcje Agregujące
             <img class="nav_icon" src="https://raw.githubusercontent.com/SK-2019/php-sql-wprowadzenie-Pawel-Kigler/main/like.png"/>
 
 
           </a>
-          <a href="/pracorgfunc/dataczas.php">
+          <a href="/pracownicy-org/dataczas.php">
             <img class="nav_icon" src="https://raw.githubusercontent.com/SK-2019/php-sql-wprowadzenie-Pawel-Kigler/main/like.png"/>
             Data i Czas
             <img class="nav_icon" src="https://raw.githubusercontent.com/SK-2019/php-sql-wprowadzenie-Pawel-Kigler/main/like.png"/>
