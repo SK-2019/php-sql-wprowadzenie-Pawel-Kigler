@@ -19,7 +19,7 @@
       </div>
       <div class="item colorGreen">
 <?
-require($_SERVER['DOCUMENT_ROOT'] . '/connect3.php');
+require($_SERVER['DOCUMENT_ROOT'] . '/connect.php');
 $sql = "SELECT * FROM autor";
 echo("<h3>Autorzy</h3>");
 echo("<li>".$sql);
