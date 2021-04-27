@@ -11,11 +11,11 @@
 <div class="container">
       <div class="item colorRed">
         
-      <?php include("../assets/header.php") ?>
+      <?php include("../assety/header.php") ?>
         </div>
         <div class="item colorBlue">
-        <?php include("../assets/menu.php") ?>
-        <?php include("../assets/relacje.php") ?>
+        <?php include("../assety/menu.php") ?>
+        <?php include("../assety/relacje.php") ?>
       </div>
       <div class="item colorGreen">
 <?
