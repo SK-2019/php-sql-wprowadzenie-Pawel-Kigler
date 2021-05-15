@@ -4,6 +4,7 @@
     Liczba: <input type="text" name="liczba">
     <input type="submit" value="zweryfikuj">
     </form>
+    Poprawna liczba: 100
     <?php
     $liczba_komputera = 100;
 
