@@ -4,7 +4,7 @@
     <input type="submit" value="zweryfikuj">
     </form>
     
-    poprawne imie = Pawel
+    poprawne imie = Pawel,
     
     <?php
     if ($_POST['Imie']=='Pawel') {
