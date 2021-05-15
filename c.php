@@ -1,10 +1,12 @@
 <html><body>
     <form method='post' action="">
     Zgadnij jaka liczbe wymyslilem (0-1000)
+    </form>
     Liczba: <input type="text" name="liczba">
     <input type="submit" value="zweryfikuj">
     </form>
     Poprawna liczba: 100
+    </form>
     <?php
     $liczba_komputera = 100;
 
