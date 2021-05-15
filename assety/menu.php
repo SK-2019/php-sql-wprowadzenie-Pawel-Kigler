@@ -85,6 +85,14 @@
             </a>
 
 
+            </a>
+          <a href="/d.php">
+            <img class="nav_icon" src="https://github.com/SK-2019/php-sql-wprowadzenie-Pawel-Kigler/main/4.png"/>
+            >Film 4<
+            <img class="nav_icon" src="https://github.com/SK-2019/php-sql-wprowadzenie-Pawel-Kigler/main/4.png"/>
+            </a>   
+
+
             <b>Wiele Do Wielu:</b>
             
           
