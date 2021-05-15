@@ -1,5 +1,7 @@
 <?php
 
+echo("W linku wpisz ?liczba1=5&liczba2=10 (lub kazda dowolna liczbe)<br>");
+
 $liczba1 = $_GET['liczba1'];
 $liczba2 = $_GET['liczba2'];
 
