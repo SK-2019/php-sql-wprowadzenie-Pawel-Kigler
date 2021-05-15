@@ -1,14 +1,11 @@
 <html><body>
     <form method='post' action="">
-    Zgadnij jaka liczbe wymyslilem (0-1000)
-    </form>
+    Zgadnij jaka liczbe wymyslilem (0-10)
     Liczba: <input type="text" name="liczba">
     <input type="submit" value="zweryfikuj">
     </form>
-    Poprawna liczba: 100
-    </form>
     <?php
-    $liczba_komputera = 100;
+    $liczba_komputera = 5;
 
     if ($_POST['liczba']>$liczba_komputera){
         echo('Za duzo!');
