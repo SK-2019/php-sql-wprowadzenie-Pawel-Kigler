@@ -57,6 +57,17 @@
             </a>
             </a> 
 
+
+            <b>Zadanie</b>
+
+
+            </a>
+          <a href="/a.php">
+            <img class="nav_icon" src="https://raw.githubusercontent.com/SK-2019/php-sql-wprowadzenie-Pawel-Kigler/main/like.png"/>
+            >Film 1<
+            <img class="nav_icon" src="https://raw.githubusercontent.com/SK-2019/php-sql-wprowadzenie-Pawel-Kigler/main/like.png"/>
+                      
+                      
             <b>Wiele Do Wielu:</b>
             
           
