@@ -90,7 +90,15 @@
             <img class="nav_icon" src="https://raw.githubusercontent.com/SK-2019/php-sql-wprowadzenie-Pawel-Kigler/main/4.png"/>
             >Film 4<
             <img class="nav_icon" src="https://raw.githubusercontent.com/SK-2019/php-sql-wprowadzenie-Pawel-Kigler/main/4.png"/>
-            </a>   
+            </a>
+
+
+            </a>
+          <a href="/e.php">
+            <img class="nav_icon" src="https://raw.githubusercontent.com/SK-2019/php-sql-wprowadzenie-Pawel-Kigler/main/9.png"/>
+            >Film 9<
+            <img class="nav_icon" src="https://raw.githubusercontent.com/SK-2019/php-sql-wprowadzenie-Pawel-Kigler/main/9.png"/>
+            </a> 
 
 
             <b>Wiele Do Wielu:</b>
