@@ -98,6 +98,14 @@
             <img class="nav_icon" src="https://raw.githubusercontent.com/SK-2019/php-sql-wprowadzenie-Pawel-Kigler/main/9.png"/>
             >Film 9<
             <img class="nav_icon" src="https://raw.githubusercontent.com/SK-2019/php-sql-wprowadzenie-Pawel-Kigler/main/9.png"/>
+            </a>
+
+
+            </a>
+          <a href="/f.php">
+            <img class="nav_icon" src="https://raw.githubusercontent.com/SK-2019/php-sql-wprowadzenie-Pawel-Kigler/main/11a.png"/>
+            >Film 11 zadanie 1<
+            <img class="nav_icon" src="https://raw.githubusercontent.com/SK-2019/php-sql-wprowadzenie-Pawel-Kigler/main/11a.png"/>
             </a> 
 
 
