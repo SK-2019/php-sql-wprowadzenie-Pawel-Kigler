@@ -1,4 +1,5 @@
 <html><body>
+    <a href='index.php'> Powrót do strony głównej</a><li>
     <form method='post' action="">
     Zgadnij jaka liczbe wymyslilem (0-10)
     Liczba: <input type="text" name="liczba">
