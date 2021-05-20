@@ -1,5 +1,5 @@
 <?php
-echo("<a href='index.php'> Powrót do strony głównej</a>li");
+echo("<a href='index.php'> Powrót do strony głównej</a><li>");
 echo("W linku wpisz ?liczba1=5&liczba2=10 (lub kazda dowolna liczbe)<br>");
 
 $liczba1 = $_GET['liczba1'];
