@@ -1,4 +1,5 @@
 <?php
+echo("<a href='index.php'> Powrót do strony głównej</a><li>");
 $imie='Adam';
 $osoba = array(
         'imie'=>'Pawel',
