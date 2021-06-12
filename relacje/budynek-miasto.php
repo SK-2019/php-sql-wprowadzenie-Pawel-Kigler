@@ -53,14 +53,14 @@ while($row=$result->fetch_assoc()){
 }
 echo("</table>");
 
-$sql = 'SELECT * FROM Budynek_Miasto, Budynek, Miasto where ID_Bud = Budynek and Miasto_ID = ID_Miasto Order by id asc';
+$sql = 'SELECT * FROM Budynek_Miasto, Budynek, Miasto where ID_Bud = Budynek_ID and Miasto_ID = ID_Miasto Order by id asc';
 echo("<h3>Budynek_Kraj</h3>");
 echo("<li>".$sql);
 $result = $conn->query($sql);
 echo("<table border=1>");
 echo("<th>id</th>");
 echo("<th>ID_Bud</th>");
-echo("<th>Budynek</th>");
+echo("<th>Budynek-Miasto</th>");
 echo("<th>ID_Miasto</th>");
 echo("<th>Miasto</th>");
 
