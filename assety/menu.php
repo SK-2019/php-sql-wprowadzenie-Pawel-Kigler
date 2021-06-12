@@ -111,7 +111,7 @@
             <b>Wiele Do Wielu:</b>
             
           
-            <a class="ars" href="../relacje/autor-tytul.php">
+            <a class="ars" href="../relacje/pilkarze_kluby.php">
             <img class="nav_icon" src="https://raw.githubusercontent.com/SK-2019/php-sql-wprowadzenie-Pawel-Kigler/main/like.png"/>
             >Pilkarz-Klub<
             <img class="nav_icon" src="https://raw.githubusercontent.com/SK-2019/php-sql-wprowadzenie-Pawel-Kigler/main/like.png"/>
