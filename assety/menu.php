@@ -128,3 +128,9 @@
             >Kraj-Miasto<
             <img class="nav_icon" src="https://raw.githubusercontent.com/SK-2019/php-sql-wprowadzenie-Pawel-Kigler/main/like.png"/>
             </a>
+
+            <a class="ars" href="../relacje/budynek_miasto.php">
+            <img class="nav_icon" src="https://raw.githubusercontent.com/SK-2019/php-sql-wprowadzenie-Pawel-Kigler/main/like.png"/>
+            >Budynek-Miasto<
+            <img class="nav_icon" src="https://raw.githubusercontent.com/SK-2019/php-sql-wprowadzenie-Pawel-Kigler/main/like.png"/>
+            </a>
