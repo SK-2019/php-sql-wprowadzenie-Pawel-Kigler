@@ -54,7 +54,7 @@ while($row=$result->fetch_assoc()){
 echo("</table>");
 
 $sql = 'SELECT * FROM Dzial_Pracownik, Dzialy, Pracownik where ID_Dza = Dzial_ID and Pracownik_ID = ID_Pra Order by id asc';
-echo("<h3>Budynek_Kraj</h3>");
+echo("<h3>Dzial_Pracownicy</h3>");
 echo("<li>".$sql);
 $result = $conn->query($sql);
 echo("<table border=1>");

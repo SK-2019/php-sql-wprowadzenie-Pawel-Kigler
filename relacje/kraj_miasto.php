@@ -54,7 +54,7 @@ while($row=$result->fetch_assoc()){
 echo("</table>");
 
 $sql = 'SELECT * FROM Kraj_Miasto, Kraj, Miasto where ID_Kraj = Kraj_ID and Miasto_ID = ID_Miasto Order by id asc';
-echo("<h3>Mechanik_Samochod</h3>");
+echo("<h3>Kraj_Miasto</h3>");
 echo("<li>".$sql);
 $result = $conn->query($sql);
 echo("<table border=1>");
