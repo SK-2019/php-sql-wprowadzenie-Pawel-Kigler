@@ -28,8 +28,8 @@ echo("<h3>Pracownik</h3>");
 echo("<li>".$sql);
 $result = $conn->query($sql);
 echo("<table border=1>");
-echo("<th>ID_Pra/th>");
-echo("<th>Pracownik/th>");
+echo("<th>ID_Pra</th>");
+echo("<th>Pracownik</th>");
 
 while($row=$result->fetch_assoc()){
     echo("<tr>");
@@ -54,7 +54,7 @@ while($row=$result->fetch_assoc()){
 echo("</table>");
 
 $sql = 'SELECT * FROM Dzial_Pracownik, Dzialy, Pracownik where ID_Dza = Dzial_ID and Pracownik_ID = ID_Pra Order by id asc';
-echo("<h3>Dzial_Pracownicy</h3>");
+echo("<h3>Dzial_Pracownik</h3>");
 echo("<li>".$sql);
 $result = $conn->query($sql);
 echo("<table border=1>");
@@ -62,11 +62,11 @@ echo("<th>id</th>");
 echo("<th>ID_Dza</th>");
 echo("<th>Dzialy</th>");
 echo("<th>ID_Pra</th>");
-echo("<th>Pracownicy</th>");
+echo("<th>Pracownik</th>");
 
 while($row=$result->fetch_assoc()){
     echo("<tr>");
-    echo("<td>".$row['ID']."</td><td>".$row['ID_Dza']."</td><td>".$row['Dzialy']."</td><td>".$row['ID_Pra']."</td><td>".$row['Pracownicy']."</td>");
+    echo("<td>".$row['ID']."</td><td>".$row['ID_Dza']."</td><td>".$row['Dzialy']."</td><td>".$row['ID_Pra']."</td><td>".$row['Pracownik']."</td>");
     echo("</tr>");
 }
 echo("</table>");
