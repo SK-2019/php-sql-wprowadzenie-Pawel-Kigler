@@ -24,7 +24,7 @@ echo("<th>Klub</th>");
 
 while($row=$result->fetch_assoc()){
     echo("<tr>");
-    echo("<td>".$row['ID_Klub']."</td><td>".$row['Kluby']."</td>");
+    echo("<td>".$row['ID_Klub']."</td><td>".$row['Klub']."</td>");
     echo("</tr>");
 }
 echo("</table>");
