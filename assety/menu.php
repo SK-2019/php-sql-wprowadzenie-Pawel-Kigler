@@ -134,3 +134,9 @@
             >Budynek-Miasto<
             <img class="nav_icon" src="https://raw.githubusercontent.com/SK-2019/php-sql-wprowadzenie-Pawel-Kigler/main/like.png"/>
             </a>
+
+            <a class="ars" href="../relacje/dzial_pracownik.php">
+            <img class="nav_icon" src="https://raw.githubusercontent.com/SK-2019/php-sql-wprowadzenie-Pawel-Kigler/main/like.png"/>
+            >Dzial_Pracownicy<
+            <img class="nav_icon" src="https://raw.githubusercontent.com/SK-2019/php-sql-wprowadzenie-Pawel-Kigler/main/like.png"/>
+            </a>
