@@ -28,7 +28,7 @@ echo("<h3>Piłkarze</h3>");
 echo("<li>".$sql);
 $result = $conn->query($sql);
 echo("<table border=1>");
-echo("<th>ID_Pil/th>");
+echo("<th>ID_Pil</th>");
 echo("<th>Piłkarz</th>");
 
 while($row=$result->fetch_assoc()){
@@ -43,7 +43,7 @@ echo("<h3>Klub</h3>");
 echo("<li>".$sql);
 $result = $conn->query($sql);
 echo("<table border=1>");
-echo("<th>ID_Klub/th>");
+echo("<th>ID_Klub</th>");
 echo("<th>Klub</th>");
 
 while($row=$result->fetch_assoc()){
