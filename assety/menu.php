@@ -125,6 +125,6 @@
 
             <a class="ars" href="../relacje/kraj_miasto.php">
             <img class="nav_icon" src="https://raw.githubusercontent.com/SK-2019/php-sql-wprowadzenie-Pawel-Kigler/main/like.png"/>
-            ><Kraj-Miasto></Kraj-Miasto><
+            >Kraj-Miasto<
             <img class="nav_icon" src="https://raw.githubusercontent.com/SK-2019/php-sql-wprowadzenie-Pawel-Kigler/main/like.png"/>
             </a>
