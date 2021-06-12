@@ -60,13 +60,13 @@ $result = $conn->query($sql);
 echo("<table border=1>");
 echo("<th>id</th>");
 echo("<th>ID_Bud</th>");
-echo("<th>Budynek-Miasto</th>");
+echo("<th>Budynek</th>");
 echo("<th>ID_Miasto</th>");
 echo("<th>Miasto</th>");
 
 while($row=$result->fetch_assoc()){
     echo("<tr>");
-    echo("<td>".$row['ID']."</td><td>".$row['ID_Bud']."</td><td>".$row['Budynek']."</td><td>".$row['ID_Miasto']."</td><td>".$row['Miasto']."</td>");
+    echo("<td>".$row['ID']."</td><td>".$row['ID_Miasto']."</td><td>".$row['Miasto']."</td><td>".$row['ID_Bud']."</td><td>".$row['Budynek']."</td>");
     echo("</tr>");
 }
 echo("</table>");
