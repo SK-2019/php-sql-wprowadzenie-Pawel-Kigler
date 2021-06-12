@@ -54,7 +54,7 @@ echo("<th>Klub</th>");
 
 while($row=$result->fetch_assoc()){
     echo("<tr>");
-    echo("<td>".$row['id']."</td><td>".$row['ID_Pil']."</td><td>".$row['Piłkarz']."</td><td>".$row['ID_Klub']."</td><td>".$row['Klub']."</td>");
+    echo("<td>".$row['ID']."</td><td>".$row['ID_Pil']."</td><td>".$row['Piłkarz']."</td><td>".$row['ID_Klub']."</td><td>".$row['Klub']."</td>");
     echo("</tr>");
 }
 echo("</table>");
