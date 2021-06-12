@@ -21,7 +21,7 @@
 <?php
 require("../connect.php");
 
-echo("<a href='index.php'>Powrót do strony głównej</a><li>");
+echo("<a href='../index.php'>Powrót do strony głównej</a><li>");
 
 $sql = "SELECT * FROM Piłkarze";
 echo("<h3>Piłkarze</h3>");
