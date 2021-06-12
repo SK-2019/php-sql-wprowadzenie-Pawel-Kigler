@@ -5,9 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
-<body>
-    
+<link rel="stylesheet" href="/stylecss/style.css"/>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item colorRed">
+        
+      <?php include("assety/header.php") ?>
+      </div>
+      <div class="item colorBlue">
+      <?php include("assety/menu.php") ?>
+      </div>
+      <div class="item colorGreen">
+
 <?php
 require("../connect.php");
 
@@ -61,5 +71,6 @@ echo("</table>");
 
 ?>
 
+</div>
 </body>
 </html>
