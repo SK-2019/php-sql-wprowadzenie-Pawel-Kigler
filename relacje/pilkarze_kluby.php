@@ -1,5 +1,5 @@
 <?php
-$sql = "SELECT * FROM Piłkarz";
+$sql = "SELECT * FROM Piłkarze";
 echo("<h3>Piłkarze</h3>");
 echo("<li>".$sql);
 $result = $conn->query($sql);
@@ -14,7 +14,7 @@ while($row=$result->fetch_assoc()){
 }
 echo("</table>");
 
-$sql = "SELECT * FROM Klub";
+$sql = "SELECT * FROM Kluby";
 echo("<h3>Klub</h3>");
 echo("<li>".$sql);
 $result = $conn->query($sql);
