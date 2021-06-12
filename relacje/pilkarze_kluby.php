@@ -1,5 +1,5 @@
 <?php
-require("connect.php");
+require("../connect.php");
 
 $sql = "SELECT * FROM Piłkarze";
 echo("<h3>Piłkarze</h3>");
