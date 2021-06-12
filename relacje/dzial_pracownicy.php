@@ -48,7 +48,7 @@ echo("<th>Dzial</th>");
 
 while($row=$result->fetch_assoc()){
     echo("<tr>");
-    echo("<td>".$row['ID_Dza']."</td><td>".$row['Dzialy']."</td>");
+    echo("<td>".$row['ID_Dza']."</td><td>".$row['Dzial']."</td>");
     echo("</tr>");
 }
 echo("</table>");
