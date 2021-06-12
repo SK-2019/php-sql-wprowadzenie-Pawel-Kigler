@@ -66,7 +66,7 @@ echo("<th>Miasto</th>");
 
 while($row=$result->fetch_assoc()){
     echo("<tr>");
-    echo("<td>".$row['ID']."</td><td>".$row['ID_Miasto']."</td><td>".$row['Miasto']."</td><td>".$row['ID_Bud']."</td><td>".$row['Budynek']."</td>");
+    echo("<td>".$row['ID']."</td><td>".$row['ID_Bud']."</td><td>".$row['Budynek']."</td><td>".$row['ID_Miasto']."</td><td>".$row['Miasto']."</td>");
     echo("</tr>");
 }
 echo("</table>");
