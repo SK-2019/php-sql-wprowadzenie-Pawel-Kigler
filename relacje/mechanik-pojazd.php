@@ -28,7 +28,7 @@ echo("<h3>Mechanik</h3>");
 echo("<li>".$sql);
 $result = $conn->query($sql);
 echo("<table border=1>");
-echo("<th>ID_Mech/th>");
+echo("<th>ID_Mech</th>");
 echo("<th>Mechanik</th>");
 
 while($row=$result->fetch_assoc()){
@@ -43,7 +43,7 @@ echo("<h3>Pojazd</h3>");
 echo("<li>".$sql);
 $result = $conn->query($sql);
 echo("<table border=1>");
-echo("<th>ID_Auto/th>");
+echo("<th>ID_Auto</th>");
 echo("<th>Pojazd</th>");
 
 while($row=$result->fetch_assoc()){
