@@ -60,7 +60,7 @@ $result = $conn->query($sql);
 echo("<table border=1>");
 echo("<th>id</th>");
 echo("<th>ID_Bud</th>");
-echo("<th>Budynek-Miasto</th>");
+echo("<th>Budynek</th>");
 echo("<th>ID_Miasto</th>");
 echo("<th>Miasto</th>");
 
