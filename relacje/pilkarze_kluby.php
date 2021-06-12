@@ -1,3 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
 <?php
 require("../connect.php");
 
@@ -30,4 +40,26 @@ while($row=$result->fetch_assoc()){
     echo("</tr>");
 }
 echo("</table>");
+
+$sql = 'SELECT * FROM Piłkarze_Kluby, Kluby, Piłkarze where ID_Klub = Klub_ID and Pil_ID = ID_Pil Order by id asc';
+echo("<h3>Piłkarz-Klub</h3>");
+echo("<li>".$sql);
+$result = $conn->query($sql);
+echo("<table border=1>");
+echo("<th>id</th>");
+echo("<th>ID_Pil</th>");
+echo("<th>Piłkarz</th>");
+echo("<th>ID_Klub</th>");
+echo("<th>Klub</th>");
+
+while($row=$result->fetch_assoc()){
+    echo("<tr>");
+    echo("<td>".$row['id']."</td><td>".$row['ID_Pil']."</td><td>".$row['Piłkarz']."</td><td>".$row['ID_Klub']."</td><td>".$row['Klub']."</td>");
+    echo("</tr>");
+}
+echo("</table>");
+
 ?>
+
+</body>
+</html>
