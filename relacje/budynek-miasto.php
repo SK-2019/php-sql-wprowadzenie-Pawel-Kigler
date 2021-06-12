@@ -28,8 +28,8 @@ echo("<h3>Budynek</h3>");
 echo("<li>".$sql);
 $result = $conn->query($sql);
 echo("<table border=1>");
-echo("<th>ID_Bud/th>");
-echo("<th>Budynek/th>");
+echo("<th>ID_Bud</th>");
+echo("<th>Budynek</th>");
 
 while($row=$result->fetch_assoc()){
     echo("<tr>");
