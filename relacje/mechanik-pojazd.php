@@ -49,7 +49,7 @@ echo("</table>");
     echo("</tr>");
 }
 echo("</table>");
-
+*/
 $sql = "SELECT * FROM Pojazd";
 echo("<h3>Pojazd</h3>");
 echo("<li>".$sql);
@@ -62,7 +62,7 @@ while($row=$result->fetch_assoc()){
     echo("<tr>");
     echo("<td>".$row['ID_Auto']."</td><td>".$row['Pojazd']."</td><td>
     <form action='delete.php' method='POST'>
-    <input type='number' name='id' value='".$row['id']."' hidden></br>
+    <input type='number' name='id' value='".$row['ID']."' hidden></br>
     <input type='submit' value='Usuń'>
     </form></td>");
     echo("</tr>");
@@ -71,7 +71,7 @@ echo("</table>");
     echo("</tr>");
 }
 echo("</table>");
-*/
+
 $sql = 'SELECT * FROM Mechanik_Samochod, Pojazd, Mechanik where ID_Mech = Mechanik_ID and Samochod_ID = ID_Auto Order by id asc';
 echo("<h3>Mechanik_Samochod</h3>");
 echo("<li>".$sql);
