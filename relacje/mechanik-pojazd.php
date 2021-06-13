@@ -27,7 +27,7 @@ ini_set('display_errors', '1');
 require("../connect.php");
 
 echo("<a href='../index.php'>Powrót do strony głównej</a>");
-
+/*
 $sql = "SELECT * FROM Mechanik";
 echo("<h3>Mechanik</h3>");
 echo("<li>".$sql);
@@ -71,7 +71,7 @@ echo("</table>");
     echo("</tr>");
 }
 echo("</table>");
-
+*/
 $sql = 'SELECT * FROM Mechanik_Samochod, Pojazd, Mechanik where ID_Mech = Mechanik_ID and Samochod_ID = ID_Auto Order by id asc';
 echo("<h3>Mechanik_Samochod</h3>");
 echo("<li>".$sql);
