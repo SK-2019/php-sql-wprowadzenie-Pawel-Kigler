@@ -33,7 +33,11 @@ echo("<th>Kraj</th>");
 
 while($row=$result->fetch_assoc()){
     echo("<tr>");
-    echo("<td>".$row['ID_Kraj']."</td><td>".$row['Kraj']."</td>");
+    echo("<td>".$row['ID_Kraj']."</td><td>".$row['Kraj']."</td><td>
+    <form action='delete_bibl.php' method='POST'>
+    <input type='number' name='ID_Kraj' value='".$row['ID_Kraj']."' hidden></br>
+    <input type='submit' value='Usuń'>
+    </form></td>");
     echo("</tr>");
 }
 echo("</table>");
@@ -48,7 +52,11 @@ echo("<th>Miasto</th>");
 
 while($row=$result->fetch_assoc()){
     echo("<tr>");
-    echo("<td>".$row['ID_Miasto']."</td><td>".$row['Miasto']."</td>");
+    echo("<td>".$row['ID_Miasto']."</td><td>".$row['Miasto']."</td><td>
+    <form action='delete_bibl.php' method='POST'>
+    <input type='number' name='ID_Miasto' value='".$row['ID_Miasto']."' hidden></br>
+    <input type='submit' value='Usuń'>
+    </form></td>");
     echo("</tr>");
 }
 echo("</table>");
@@ -66,7 +74,11 @@ echo("<th>Miasto</th>");
 
 while($row=$result->fetch_assoc()){
     echo("<tr>");
-    echo("<td>".$row['ID']."</td><td>".$row['ID_Kraj']."</td><td>".$row['Kraj']."</td><td>".$row['ID_Miasto']."</td><td>".$row['Miasto']."</td>");
+    echo("<td>".$row['ID']."</td><td>".$row['ID_Kraj']."</td><td>".$row['Kraj']."</td><td>".$row['ID_Miasto']."</td><td>".$row['Miasto']."</td><td>
+    <form action='delete_bibl.php' method='POST'>
+    <input type='number' name='ID' value='".$row['ID']."' hidden></br>
+    <input type='submit' value='Usuń'>
+    </form></td>");
     echo("</tr>");
 }
 echo("</table>");
