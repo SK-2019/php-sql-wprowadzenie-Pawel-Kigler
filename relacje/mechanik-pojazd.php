@@ -48,7 +48,11 @@ echo("<th>Pojazd</th>");
 
 while($row=$result->fetch_assoc()){
     echo("<tr>");
-    echo("<td>".$row['ID_Auto']."</td><td>".$row['Pojazd']."</td>");
+    echo("<td>".$row['ID_Auto']."</td><td>".$row['Pojazd']."</td><td>
+    <form action='delete_bibl.php' method='POST'>
+    <input type='number' name='IDD' value='".$row['ID_Auto']."' hidden></br>
+    <input type='submit' value='Usuń'>
+    </form></td>");
     echo("</tr>");
 }
 echo("</table>");
