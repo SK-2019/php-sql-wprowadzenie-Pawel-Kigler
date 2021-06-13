@@ -19,11 +19,6 @@
       <div class="item colorGreen">
 
 <?php
-
-ini_set('display_errors', '1');
-ini_set('display_startup_errors', '1');
-error_reporting(E_ALL);
-
 require("../connect.php");
 
 echo("<a href='../index.php'>Powrót do strony głównej</a>");
@@ -31,21 +26,14 @@ echo("<a href='../index.php'>Powrót do strony głównej</a>");
 $sql = "SELECT * FROM Mechanik";
 echo("<h3>Mechanik</h3>");
 echo("<li>".$sql);
-$result = $conn->query($sql) or die($conn->error);
+$result = $conn->query($sql);
 echo("<table border=1>");
 echo("<th>ID_Mech</th>");
 echo("<th>Mechanik</th>");
 
 while($row=$result->fetch_assoc()){
     echo("<tr>");
-    echo("<td>".$row['ID_Mech']."</td><td>".$row['Mechanik']."</td><td>
-    <form action='delete.php' method='POST'>
-    <input type='number' name='id' value='".$row['ID_Mech']."' hidden></br>
-    <input type='submit' value='Usuń'>
-    </form></td>");
-    echo("</tr>");
-}
-echo("</table>");
+    echo("<td>".$row['ID_Mech']."</td><td>".$row['Mechanik']."</td>");
     echo("</tr>");
 }
 echo("</table>");
@@ -60,14 +48,7 @@ echo("<th>Pojazd</th>");
 
 while($row=$result->fetch_assoc()){
     echo("<tr>");
-    echo("<td>".$row['ID_Auto']."</td><td>".$row['Pojazd']."</td><td>
-    <form action='delete.php' method='POST'>
-    <input type='number' name='id' value='".$row['ID_Auto']."' hidden></br>
-    <input type='submit' value='Usuń'>
-    </form></td>");
-    echo("</tr>");
-}
-echo("</table>");
+    echo("<td>".$row['ID_Auto']."</td><td>".$row['Pojazd']."</td>");
     echo("</tr>");
 }
 echo("</table>");
@@ -87,14 +68,12 @@ while($row=$result->fetch_assoc()){
     echo("<tr>");
     echo("<td>".$row['ID']."</td><td>".$row['ID_Mech']."</td><td>".$row['Mechanik']."</td><td>".$row['ID_Auto']."</td><td>".$row['Pojazd']."</td><td>
     <form action='delete.php' method='POST'>
-    <input type='number' name='id' value='".$row['ID']."' hidden></br>
+    <input type='number' name='id' value='".$row['id']."' hidden></br>
     <input type='submit' value='Usuń'>
     </form></td>");
     echo("</tr>");
 }
 echo("</table>");
-
-
 
 ?>
 
