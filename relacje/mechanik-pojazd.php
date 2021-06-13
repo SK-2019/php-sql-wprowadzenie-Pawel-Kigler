@@ -62,7 +62,7 @@ while($row=$result->fetch_assoc()){
     echo("<tr>");
     echo("<td>".$row['ID_Auto']."</td><td>".$row['Pojazd']."</td><td>
     <form action='delete.php' method='POST'>
-    <input type='number' name='id' value='".$row['ID']."' hidden></br>
+    <input type='number' name='id' value='".$row['ID_Auto']."' hidden></br>
     <input type='submit' value='Usuń'>
     </form></td>");
     echo("</tr>");
