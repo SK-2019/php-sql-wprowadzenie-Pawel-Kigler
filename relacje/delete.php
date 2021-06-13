@@ -1,7 +1,7 @@
 <?php
 
 require_once("../connect.php");
-$sql = "DELETE  FROM '".$_POST['Tabela']."' WHERE '".$_POST['Kolumna']."'= '".$_POST['Wiersz']."'";
+$sql = "DELETE  FROM ".$_POST['Tabela']." WHERE ".$_POST['Kolumna']."= ".$_POST['Wiersz']."";
 
 echo $sql;
 
