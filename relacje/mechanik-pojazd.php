@@ -33,7 +33,14 @@ echo("<th>Mechanik</th>");
 
 while($row=$result->fetch_assoc()){
     echo("<tr>");
-    echo("<td>".$row['ID_Mech']."</td><td>".$row['Mechanik']."</td>");
+    echo("<td>".$row['ID_Mech']."</td><td>".$row['Mechanik']."</td><td>".$row['Pojazd']."</td><td>
+    <form action='delete.php' method='POST'>
+    <input type='number' name='id' value='".$row['id']."' hidden></br>
+    <input type='submit' value='Usuń'>
+    </form></td>");
+    echo("</tr>");
+}
+echo("</table>");
     echo("</tr>");
 }
 echo("</table>");
@@ -48,7 +55,14 @@ echo("<th>Pojazd</th>");
 
 while($row=$result->fetch_assoc()){
     echo("<tr>");
-    echo("<td>".$row['ID_Auto']."</td><td>".$row['Pojazd']."</td>");
+    echo("<td>".$row['ID_Auto']."</td><td>".$row['Pojazd']."</td><td>
+    <form action='delete.php' method='POST'>
+    <input type='number' name='id' value='".$row['id']."' hidden></br>
+    <input type='submit' value='Usuń'>
+    </form></td>");
+    echo("</tr>");
+}
+echo("</table>");
     echo("</tr>");
 }
 echo("</table>");
