@@ -33,7 +33,11 @@ echo("<th>Pracownik</th>");
 
 while($row=$result->fetch_assoc()){
     echo("<tr>");
-    echo("<td>".$row['ID_Pra']."</td><td>".$row['Pracownik']."</td>");
+    echo("<td>".$row['ID_Pra']."</td><td>".$row['Pracownik']."</td><td>
+    <form action='delete_bibl.php' method='POST'>
+    <input type='number' name='ID_Pra' value='".$row['ID_Pra']."' hidden></br>
+    <input type='submit' value='Usuń'>
+    </form></td>");
     echo("</tr>");
 }
 echo("</table>");
@@ -48,7 +52,11 @@ echo("<th>Dzial</th>");
 
 while($row=$result->fetch_assoc()){
     echo("<tr>");
-    echo("<td>".$row['ID_Dza']."</td><td>".$row['Dzial']."</td>");
+    echo("<td>".$row['ID_Dza']."</td><td>".$row['Dzial']."</td><td>
+    <form action='delete_bibl.php' method='POST'>
+    <input type='number' name='ID_Dza' value='".$row['ID_Dza']."' hidden></br>
+    <input type='submit' value='Usuń'>
+    </form></td>");
     echo("</tr>");
 }
 echo("</table>");
@@ -66,7 +74,11 @@ echo("<th>Pracownik</th>");
 
 while($row=$result->fetch_assoc()){
     echo("<tr>");
-    echo("<td>".$row['ID']."</td><td>".$row['ID_Dza']."</td><td>".$row['Dzial']."</td><td>".$row['ID_Pra']."</td><td>".$row['Pracownik']."</td>");
+    echo("<td>".$row['ID']."</td><td>".$row['ID_Dza']."</td><td>".$row['Dzial']."</td><td>".$row['ID_Pra']."</td><td>".$row['Pracownik']."</td><td>
+    <form action='delete.php' method='POST'>
+    <input type='number' name='ID' value='".$row['ID']."' hidden></br>
+    <input type='submit' value='Usuń'>
+    </form></td>");
     echo("</tr>");
 }
 echo("</table>");
