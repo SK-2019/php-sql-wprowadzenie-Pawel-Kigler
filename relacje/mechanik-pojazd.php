@@ -19,7 +19,6 @@
       <div class="item colorGreen">
 
 <?php
-
 ini_set('display_errors', '1');
         ini_set('display_startup_errors', '1');
         error_reporting(E_ALL);
@@ -49,7 +48,7 @@ echo("</table>");
     echo("</tr>");
 }
 echo("</table>");
-/*
+
 $sql = "SELECT * FROM Pojazd";
 echo("<h3>Pojazd</h3>");
 echo("<li>".$sql);
@@ -71,7 +70,7 @@ echo("</table>");
     echo("</tr>");
 }
 echo("</table>");
-*/
+
 $sql = 'SELECT * FROM Mechanik_Samochod, Pojazd, Mechanik where ID_Mech = Mechanik_ID and Samochod_ID = ID_Auto Order by id asc';
 echo("<h3>Mechanik_Samochod</h3>");
 echo("<li>".$sql);
