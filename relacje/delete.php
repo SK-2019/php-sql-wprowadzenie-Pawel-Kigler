@@ -1,6 +1,6 @@
 <?php
 
-echo("<a href='../index.php'>Powrót do strony głównej</a>");
+echo("<a href='../index.php'>Powrót do strony głównej</a></br>");
 
 require_once("../connect.php");
 $sql = "DELETE  FROM ".$_POST['Tabela']." WHERE ".$_POST['Kolumna']."= ".$_POST['Wiersz']."";
