@@ -68,7 +68,7 @@ while($row=$result->fetch_assoc()){
     echo("<tr>");
     echo("<td>".$row['ID']."</td><td>".$row['ID_Kraj']."</td><td>".$row['Kraj']."</td><td>".$row['ID_Miasto']."</td><td>".$row['Miasto']."</td><td>
     <form action='delete_bibl.php' method='POST'>
-    <input type='number' name='id' value='".$row['id']."' hidden></br>
+    <input type='number' name='id' value='".$row['ID']."' hidden></br>
     <input type='submit' value='Usuń'>
     </form></td>"");
     echo("</tr>");

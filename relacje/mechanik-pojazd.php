@@ -30,7 +30,7 @@ echo("<a href='../index.php'>Powrót do strony głównej</a>");
 $sql = "SELECT * FROM Mechanik";
 echo("<h3>Mechanik</h3>");
 echo("<li>".$sql);
-$result = $conn->query($sql);
+$result = $conn->query($sql) or die($conn->error);
 echo("<table border=1>");
 echo("<th>ID_Mech</th>");
 echo("<th>Mechanik</th>");
