@@ -36,7 +36,7 @@ while($row=$result->fetch_assoc()){
     echo("<td>".$row['ID_Bud']."</td><td>".$row['Budynek']."</td><td>
     <form action='delete.php' method='POST'>
     <input type='number' name='ID_Bud' value='".$row['ID_Bud']."' hidden></br>
-    <input type='text' name='Budynek' value='Budynek' hidden></br>
+    <input type='text' name='Tabela' value='Budynek' hidden></br>
     <input type='submit' value='Usuń'>
     </form></td>");
     echo("</tr>");
@@ -56,7 +56,7 @@ while($row=$result->fetch_assoc()){
     echo("<td>".$row['ID_Miasto']."</td><td>".$row['Miasto']."</td><td>
     <form action='delete.php' method='POST'>
     <input type='number' name='ID_Miasto' value='".$row['ID_Miasto']."' hidden></br>
-    <input type='text' name='Miasto' value='Miasto' hidden></br>
+    <input type='text' name='Tabela' value='Miasto' hidden></br>
     <input type='submit' value='Usuń'>
     </form></td>");
     echo("</tr>");
@@ -79,7 +79,7 @@ while($row=$result->fetch_assoc()){
     echo("<td>".$row['ID']."</td><td>".$row['ID_Bud']."</td><td>".$row['Budynek']."</td><td>".$row['ID_Miasto']."</td><td>".$row['Miasto']."</td><td>
     <form action='delete.php' method='POST'>
     <input type='number' name='ID' value='".$row['ID']."' hidden></br>
-    <input type='text' name='Budynek_Miasto' value='Budynek_Miasto' hidden></br>
+    <input type='text' name='Tabela' value='Budynek_Miasto' hidden></br>
     <input type='submit' value='Usuń'>
     </form></td>");
     echo("</tr>");
