@@ -33,7 +33,11 @@ echo("<th>Mechanik</th>");
 
 while($row=$result->fetch_assoc()){
     echo("<tr>");
-    echo("<td>".$row['ID_Mech']."</td><td>".$row['Mechanik']."</td>");
+    echo("<td>".$row['ID_Mech']."</td><td>".$row['Mechanik']."</td><td>
+    <form action='delete_bibl.php' method='POST'>
+    <input type='number' name='ID_Mech' value='".$row['ID_Mech']."' hidden></br>
+    <input type='submit' value='Usuń'>
+    </form></td>");
     echo("</tr>");
 }
 echo("</table>");
@@ -50,7 +54,7 @@ while($row=$result->fetch_assoc()){
     echo("<tr>");
     echo("<td>".$row['ID_Auto']."</td><td>".$row['Pojazd']."</td><td>
     <form action='delete_bibl.php' method='POST'>
-    <input type='number' name='IDD' value='".$row['ID_Auto']."' hidden></br>
+    <input type='number' name='ID_Auto' value='".$row['ID_Auto']."' hidden></br>
     <input type='submit' value='Usuń'>
     </form></td>");
     echo("</tr>");
