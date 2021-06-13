@@ -34,8 +34,9 @@ echo("<th>Mechanik</th>");
 while($row=$result->fetch_assoc()){
     echo("<tr>");
     echo("<td>".$row['ID_Mech']."</td><td>".$row['Mechanik']."</td><td>
-    <form action='delete_bibl.php' method='POST'>
+    <form action='delete.php' method='POST'>
     <input type='number' name='ID_Mech' value='".$row['ID_Mech']."' hidden></br>
+    <input type='text' name='Mechanik' value='Mechanik' hidden></br>
     <input type='submit' value='Usuń'>
     </form></td>");
     echo("</tr>");
@@ -53,8 +54,9 @@ echo("<th>Pojazd</th>");
 while($row=$result->fetch_assoc()){
     echo("<tr>");
     echo("<td>".$row['ID_Auto']."</td><td>".$row['Pojazd']."</td><td>
-    <form action='delete_bibl.php' method='POST'>
+    <form action='delete.php' method='POST'>
     <input type='number' name='ID_Auto' value='".$row['ID_Auto']."' hidden></br>
+    <input type='text' name='Pojazd' value='Pojazd' hidden></br>
     <input type='submit' value='Usuń'>
     </form></td>");
     echo("</tr>");
@@ -77,6 +79,7 @@ while($row=$result->fetch_assoc()){
     echo("<td>".$row['ID']."</td><td>".$row['ID_Mech']."</td><td>".$row['Mechanik']."</td><td>".$row['ID_Auto']."</td><td>".$row['Pojazd']."</td><td>
     <form action='delete.php' method='POST'>
     <input type='number' name='id' value='".$row['id']."' hidden></br>
+    <input type='text' name='Mechanik_Samochod' value='Mechanik_Samochod' hidden></br>
     <input type='submit' value='Usuń'>
     </form></td>");
     echo("</tr>");
