@@ -19,7 +19,6 @@
       <div class="item colorGreen">
 
 <?php
-
 require($_SERVER['DOCUMENT_ROOT'] . '/connect.php');
     $sql = ('SELECT * FROM pracownicy');
     echo("<h2>Pracownicy");
@@ -38,9 +37,6 @@ require($_SERVER['DOCUMENT_ROOT'] . '/connect.php');
         }
 
         echo("</table>");
-
-
-
 ?>
     </div>
   </body>
